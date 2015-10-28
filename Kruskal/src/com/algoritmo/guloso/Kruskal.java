@@ -25,7 +25,7 @@ public class Kruskal {
 	public Kruskal(){
 		
 		int valor = menorValorAresta();
-		
+		//
 		while(!(valor == 999)){
 			for(int l = 0; l < M.length;l++){
 				for(int c = 0; c < M.length;c++){
