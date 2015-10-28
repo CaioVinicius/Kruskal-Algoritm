@@ -19,7 +19,7 @@ public class Kruskal {
 	//esta é a matriz que irá se tornar o novo grafo
 	private int G[][] = new int[M.length][M.length];
 	
-	//Irei ordenar as verticies do menor para o maior nesta lista
+	//Irei ordenar as verticies do menor para o maior nesta lista do tipo arrayList que armazena objetos
 	private ArrayList<ArestaPeso> listaArestas = new ArrayList<>();
 	 
 	public Kruskal(){
